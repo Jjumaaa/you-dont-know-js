@@ -39,6 +39,20 @@ let person = {
         friends: ["Jane'", "James", "Jack", "collins"]
     };  
 
+    console.log(person.friends[3])
+
+    console.log(person.city)
+
     console.log(person.age);
 
-    console.log(person.friends[3])
+    function clicked(e) 
+    {
+        alert("I have been clicked!")
+
+    }
+
+    let btn = document.getElementById("click");
+    
+    btn.addEventListener("click", clicked );
+    console.log("Button was clicked");
+
