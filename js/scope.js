@@ -13,7 +13,7 @@ greetings()
 
 if(true){
     var name = "Hillary"
-    console.log('Hi ${name}')
+    console.log('Hi Juma')
 }
 
 //console.log(name)
